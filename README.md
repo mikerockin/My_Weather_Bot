@@ -21,9 +21,14 @@ a request with the name of the city is saved in the database.
 - Written on pure request queries using the weather service "OpenWeathermap";
 - Working on www.pythonanywhere.com, restarts via internal tasks pythonanywhere;
 - Deployment with Github Actions:
-- The application container is available on Docker Hub under the name: mikerockin1988/my-bot 
+- The application container is available on Docker Hub under the name: mikerockin1988/my-bot
 
   https://hub.docker.com/r/mikerockin1988/my-bot
+  
+      $ docker pull mikerockin1988/my-bot:1.0.0
+  *After pulling the image, run the container with the command:
+  
+      $ docker run -d -e TELEGRAM_BOT_TOKEN=YOUR_TOKEN -e OPENWEATHERMAP_API_KEY=YOUR_APID mikerockin1988/my-bot:1.0.0
 - The application container is available on Container Registry ( Yandex Cloud ), access to the Docker image for authorized Yandex Cloud users who are members of the organization**
 
       $ docker pull cr.yandex/crpv85vhagh6a4tpo9mi/my-bot:1.0.0
