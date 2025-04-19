@@ -8,15 +8,15 @@ Weather telegram bot, for the entered city can show the weather: for today, tomo
 after each forecast returns a voice message with the announced weather forecast (convenient when driving a car),
 a request with the name of the city is saved in the database.
 
-1. Returns the following parameters:
-2. Weather conditions (snow, rain, cloudy, etc.)
-3. Air temperature.
-4. Wind speed.
-5. Atmospheric pressure.
-6. Humidity.
-7. Dawn.
-8. Sunset.
-9. Time zone.
+Returns the following parameters:
+1. Weather conditions (snow, rain, cloudy, etc.)
+2. Air temperature.
+3. Wind speed.
+4. Atmospheric pressure.
+5. Humidity.
+6. Dawn.
+7. Sunset.
+8. Time zone.
 
 **Features**:
 - Written on pure request queries using the weather service "OpenWeathermap";
